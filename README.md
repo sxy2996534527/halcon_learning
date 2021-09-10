@@ -9,4 +9,4 @@
 (1). 2D, threshold
 (2). 3D, ```select_points_object_model_3d```, select only points near the camera, without the background
 (3). 2D, ```sub_image```; 3D, ```distance_object_model_3d```, ```select_points_object_model_3d```
-![Uploading Screenshot from 2021-09-10 14-46-41.png…]()
+![Screenshot from 2021-09-10 14-46-41](https://user-images.githubusercontent.com/27469356/132811816-a8c079c4-1346-4806-9496-6c54cf92c945.png)
