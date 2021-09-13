@@ -13,3 +13,4 @@
 5. edge-supported surface-based 3D-matching with MVTec Halcon: a. XYZ-Mappings, ordered point clouds when the 3D coordinates are written as gray values in XYZ images; b. 3D edge extraction, 2 main adjustable parameters: MinAmplitudeRel & MaxGap; c. edge direction inspection, the viewpoint should be located roughly where the 3D scene was acquired; d. adjust the parameters in step b & c to optimize the visualization results and set them to ```find_surface_model```; e. extend the edge-supported surface-based matching with 2D images
 ![Screenshot from 2021-09-13 10-25-50](https://user-images.githubusercontent.com/27469356/133014911-4a704923-521f-4e91-9e2e-2b642f3cafcc.png)
 ![Screenshot from 2021-09-13 10-58-15](https://user-images.githubusercontent.com/27469356/133017395-74a5bfd5-f464-45da-b5bb-065f8503cb6a.png)
+6. Integrate HDevelop code into a C++ application using the Library Project Export: https://www.youtube.com/watch?v=BAZGskDPDlY
