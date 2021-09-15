@@ -14,3 +14,10 @@
 ![Screenshot from 2021-09-13 10-25-50](https://user-images.githubusercontent.com/27469356/133014911-4a704923-521f-4e91-9e2e-2b642f3cafcc.png)
 ![Screenshot from 2021-09-13 10-58-15](https://user-images.githubusercontent.com/27469356/133017395-74a5bfd5-f464-45da-b5bb-065f8503cb6a.png)
 6. Integrate HDevelop code into a C++ application using the Library Project Export: https://www.youtube.com/watch?v=BAZGskDPDlY
+
+## operators
+### 3D object model
+#### creation
+1. ```clear_object_model_3d```: 释放存储资源
+2. ```copy_object_model_3d```: 拷贝模型
+3. ```deserialize_object_model_3d```: 
