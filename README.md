@@ -20,4 +20,4 @@
 #### creation
 1. ```clear_object_model_3d```: 释放存储资源
 2. ```copy_object_model_3d```: 拷贝模型
-3. ```deserialize_object_model_3d```: 
+3. ```deserialize_object_model_3d```: 与```serialize_object_model_3d```配合使用，serialize将3D模型序列化到传输流中传输，deserialize将接收的序列化3d数据反序列化为文件
