@@ -25,6 +25,7 @@ step3: evaluation
 step4: inference, 训练和测试的采图光照条件要相同
 
 ![Screenshot from 2021-09-17 11-02-53](https://user-images.githubusercontent.com/27469356/133717622-c150f0f1-0e1b-4d2f-bf60-b985c4ca0a38.png)
+![Screenshot from 2021-09-17 14-14-25](https://user-images.githubusercontent.com/27469356/133733616-dae2a4e3-505b-4f0a-ade5-6545dd636514.png)
 
 
 ## operators
