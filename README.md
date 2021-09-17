@@ -14,6 +14,18 @@
 ![Screenshot from 2021-09-13 10-25-50](https://user-images.githubusercontent.com/27469356/133014911-4a704923-521f-4e91-9e2e-2b642f3cafcc.png)
 ![Screenshot from 2021-09-13 10-58-15](https://user-images.githubusercontent.com/27469356/133017395-74a5bfd5-f464-45da-b5bb-065f8503cb6a.png)
 6. Integrate HDevelop code into a C++ application using the Library Project Export: https://www.youtube.com/watch?v=BAZGskDPDlY
+7. MVTec HALCON's anomaly detection based on deep learning, [youtube](https://www.youtube.com/watch?v=uHIAs0xYzhs)
+
+step1: preparation
+
+step2: training
+
+step3: evaluation
+
+step4: inference
+
+![Screenshot from 2021-09-17 11-02-53](https://user-images.githubusercontent.com/27469356/133717622-c150f0f1-0e1b-4d2f-bf60-b985c4ca0a38.png)
+
 
 ## operators
 ### 3D object model
