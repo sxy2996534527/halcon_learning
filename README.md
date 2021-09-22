@@ -34,3 +34,9 @@ step4: inference, 训练和测试的采图光照条件要相同
 1. ```clear_object_model_3d```: 释放存储资源
 2. ```copy_object_model_3d```: 拷贝模型
 3. ```deserialize_object_model_3d```: 与```serialize_object_model_3d```配合使用，serialize将3D模型序列化到传输流中传输，deserialize将接收的序列化3d数据反序列化为文件
+
+## application
+### 1. 金属管缺陷检测
+1. 数据采集问题：一方面光照不均匀，另一方面金属表面存在凹坑、污渍、滑痕等多种干扰基于正常数据集训练的halcon缺陷检测算法
+2. 人为的对于好坏采集图像的分类也存在主观性
+3. 拟实施的解决方案：贴近金属管表面以获得光照均匀、正常区域表面变化很小的图像
