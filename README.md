@@ -10,7 +10,7 @@
 (2). 3D, ```select_points_object_model_3d```, select only points near the camera, without the background
 (3). 2D, ```sub_image```; 3D, ```distance_object_model_3d```, ```select_points_object_model_3d```
 ![Screenshot from 2021-09-10 14-46-41](https://user-images.githubusercontent.com/27469356/132811816-a8c079c4-1346-4806-9496-6c54cf92c945.png)
-5. edge-supported surface-based 3D-matching with MVTec Halcon: a. XYZ-Mappings, ordered point clouds when the 3D coordinates are written as gray values in XYZ images; b. 3D edge extraction, 2 main adjustable parameters: MinAmplitudeRel & MaxGap; c. edge direction inspection, the viewpoint should be located roughly where the 3D scene was acquired; d. adjust the parameters in step b & c to optimize the visualization results and set them to ```find_surface_model```; e. extend the edge-supported surface-based matching with 2D images
+5. edge-supported surface-based 3D-matching with MVTec Halcon: a. XYZ-Mappings, ordered point clouds when the 3D coordinates are written as gray values in XYZ images; b. 3D edge extraction, 2 main adjustable parameters: MinAmplitudeRel & MaxGap; c. edge direction inspection, the viewpoint should be located roughly where the 3D scene was acquired; d. adjust the parameters in step b & c to optimize the visualization results and set them to ```find_surface_model```; e. extend the edge-supported surface-based matching with 2D imagesAutomatic Metallic Surface Defect Detection and Recognition with Convolutional Neural Networks
 ![Screenshot from 2021-09-13 10-25-50](https://user-images.githubusercontent.com/27469356/133014911-4a704923-521f-4e91-9e2e-2b642f3cafcc.png)
 ![Screenshot from 2021-09-13 10-58-15](https://user-images.githubusercontent.com/27469356/133017395-74a5bfd5-f464-45da-b5bb-065f8503cb6a.png)
 6. Integrate HDevelop code into a C++ application using the Library Project Export: https://www.youtube.com/watch?v=BAZGskDPDlY
@@ -39,4 +39,4 @@ step4: inference, 训练和测试的采图光照条件要相同
 ### 1. 金属管缺陷检测
 1. 数据采集问题：一方面光照不均匀，另一方面金属表面存在凹坑、污渍、滑痕等多种干扰基于正常数据集训练的halcon缺陷检测算法
 2. 人为的对于好坏采集图像的分类也存在主观性
-3. 拟实施的解决方案：贴近金属管表面以获得光照均匀、正常区域表面变化很小的图像
+3. 拟实施的解决方案：贴近金属管表面以获得光照均匀、正常区域表面变化很小的图像; 小区域裁减（可通过先识别定位可能的区域），进行是否存在缺陷以及缺陷种类的判断。
