@@ -16,5 +16,7 @@ c. edge direction inspection, the viewpoint should be located roughly where the 
 d. adjust the parameters in step b & c to optimize the visualization results and set them to ```find_surface_model```; 
 
 e. extend the edge-supported surface-based matching with 2D images.
+
+更多细节，参考```find_surface_model_with_edges.hdv```说明
 ![Screenshot from 2021-09-13 10-25-50](https://user-images.githubusercontent.com/27469356/133014911-4a704923-521f-4e91-9e2e-2b642f3cafcc.png)
 ![Screenshot from 2021-09-13 10-58-15](https://user-images.githubusercontent.com/27469356/133017395-74a5bfd5-f464-45da-b5bb-065f8503cb6a.png)
