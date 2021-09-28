@@ -17,6 +17,18 @@ d. adjust the parameters in step b & c to optimize the visualization results and
 
 e. extend the edge-supported surface-based matching with 2D images.
 
-更多细节，参考```find_surface_model_with_edges.hdv```说明
+更多细节，参考```find_surface_model_with_edges.hdev```说明
 ![Screenshot from 2021-09-13 10-25-50](https://user-images.githubusercontent.com/27469356/133014911-4a704923-521f-4e91-9e2e-2b642f3cafcc.png)
 ![Screenshot from 2021-09-13 10-58-15](https://user-images.githubusercontent.com/27469356/133017395-74a5bfd5-f464-45da-b5bb-065f8503cb6a.png)
+
+## find_surface_model_with_edges.hdev
+### 1. Yaw, Pitch, Roll, Omega, Phi, Kappa, [link](https://support.pix4d.com/hc/en-us/articles/202558969-Yaw-Pitch-Roll-and-Omega-Phi-Kappa-angles#How%20to%20convert%20Yaw,%20Pitch,%20Roll%20to%20Omega,%20Phi,%20Kappa)
+1. Yaw, Pitch, Roll angles define the relation between the navigation coordinate system and the body coordinate system.
+2. The omega, phi, kappa angles are defined as the angles used in order to rotate a (X, Y, Z) geodetic coordinate system and align it with the image coordinate system. The rotations are applied in the following order:
+
+Kappa (κ), the rotation around the Z axis.
+
+Phi (φ), the rotation around the Y axis.
+
+Omega (ω), the rotation around the Χ axis
+
